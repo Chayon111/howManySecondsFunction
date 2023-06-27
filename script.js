@@ -8,6 +8,8 @@ console.log(howManySeconds(2));
 
 
 
+// century  calculation
+
 function solution(year) {
     const century = Math.ceil(year / 100);
     return century;
